@@ -1,22 +1,22 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title color="danger">
-      Cadastrar Membro da Familia
+      Lista de Atividades
     </ion-title>
   </ion-toolbar>
 
 </ion-header>
 
 <ion-content>
-  <form (ngSubmit)="adicionar()">
+  <!-- <form (ngSubmit)="adicionar()">
     <ion-item>
-      <ion-label position="floating">Nome da Pessoa</ion-label>
+      <ion-label position="floating">Atividade</ion-label>
       <ion-input type="text" name="'nome" [(ngModel)]="nome"></ion-input>
     </ion-item>
     <ion-button color="danger" expand="block" type="submit">
       <ion-icon name="add-circle"></ion-icon>Adicionar
     </ion-button>
-  </form>
+  </form> -->
   <ion-list>
     <ion-item *ngFor="let item of lista; let i = index">
       {{ item }}

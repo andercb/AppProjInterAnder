@@ -12,9 +12,26 @@
       <ion-title size="large">Tab 1</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-card-content>
+    <ion-img src="assets/images/capa.jpeg" alt="Family Activities"></ion-img>
+  </ion-card-content>
 
   <!-- <app-explore-container name="Tab 1 page"></app-explore-container> -->
+  
+  <div>
+    <ion-card expand="block">
+     
+        <ion-item>
+          <ion-input  type="email" label="Usuário" labelPlacement="floating" placeholder="usuario@email.com" required="true"></ion-input>
+        </ion-item>
 
-  <ion-button (click)="presentActionSheet()">Open</ion-button>
-
+        <ion-item>
+          <ion-input type="password" label="Senha" labelPlacement="floating" placeholder="********"></ion-input>
+        </ion-item>
+     
+    </ion-card>
+  </div>
+  <!-- <div>
+    <ion-button (click)="presentActionSheet()">Open</ion-button>
+  </div> -->
 </ion-content>

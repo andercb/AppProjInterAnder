@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title color="danger">
-      Cadastrar Membro da Familia
+      Cadastrar Atividade
     </ion-title>
   </ion-toolbar>
 
@@ -10,7 +10,7 @@
 <ion-content>
   <form (ngSubmit)="adicionar()">
     <ion-item>
-      <ion-label position="floating">Nome da Pessoa</ion-label>
+      <ion-label position="floating">Atividade</ion-label>
       <ion-input type="text" name="'nome" [(ngModel)]="nome"></ion-input>
     </ion-item>
     <ion-button color="danger" expand="block" type="submit">
